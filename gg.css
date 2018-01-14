@@ -1,0 +1,67 @@
+body
+{
+background-color:black;
+} 
+.box
+{
+background-color:#3d4543;
+height:300px;
+width:250px;
+border-radius:10px;
+position:relative;
+top:80px;
+left:40%;
+} 
+.display
+{
+background-color:#222;
+width:220px;
+position:relative;
+left:-38px;
+top:20px;
+height:40px;
+}
+.display input
+{
+position:relative;
+left:2px;
+top:2px;
+height:35px;
+color:black;
+background-color:#bccd95;
+font-size:15px;
+text-align:right;
+} 
+.keys
+{
+position:relative;
+top:15px;
+}
+.button
+{
+width:40px;
+height:30px;
+border:none;
+border-radius:8px;
+margin-left:95px;
+cursor:pointer;
+border-top:2px solid transparent;
+}
+.div1 
+{
+position: absolute;
+left: 50px;
+width: calc(100% - 100px);
+border: 1px solid black;
+background-color:#222;
+padding: 5px;
+text-align: center;
+}
+.calc
+{
+width:220px;
+position:relative;
+left:50px;
+top:20px;
+height:40px;
+}
